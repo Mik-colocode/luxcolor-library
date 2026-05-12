@@ -30,10 +30,14 @@
     "url": "cdn.jsdelivr.net](https://cdn.jsdelivr.net/gh/Mik-colocode/luxcolor-library@main/references/tb3.jpg",
     "title": "Manoir hanté",
     "director": "Tim Burton",
+    "dop": "Roger Deakins",
+    "colorist": "Tom Poole",
     "year": "20015",
     "camera": "Arri Alexa",
     "lens": "Anamorphic 35mm",
     "style": "Cold",
+    "mood": "Thriller",
+    "country": "USA",
     "notes": "",
     "tags": ["desert", "sunset"],
     "source": "cloud"
@@ -43,12 +47,18 @@
     "url": "cdn.jsdelivr.net](https://cdn.jsdelivr.net/gh/Mik-colocode/luxcolor-library@main/references/tb4.webp",
     "title": "Queenn Throne",
     "director": "Tim Burton",
+    "dop": "Roger Deakins",
+    "colorist": "Tom Poole",
     "year": "2022",
     "camera": "Arri Alexa",
     "lens": "Anamorphic 35mm",
+    "format": "Anamorphique",
     "style": "Warm",
+    "mood": "Thriller",
+    "country": "USA",
     "notes": "",
     "tags": ["desert", "sunset"],
     "source": "cloud"
   }
+
   ]
