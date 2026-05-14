@@ -19,7 +19,7 @@
   },
   {
     "id": "cloud-02",
-    "url": "[corsproxy.io](https://corsproxy.io/?https://raw.githubusercontent.com/Mik-colocode/luxcolor-library/main/tb2.jpg)",
+    "url": "https://corsproxy.io/?https://raw.githubusercontent.com/Mik-colocode/luxcolor-library/main/tb2.jpg",
     "title": "Forest House",
     "director": "Tim Burton",
     "dop": "",
@@ -37,7 +37,7 @@
   },
   {
     "id": "cloud-03",
-    "url": "[corsproxy.io](https://corsproxy.io/?https://raw.githubusercontent.com/Mik-colocode/luxcolor-library/main/tb3.jpg)",
+    "url": "https://corsproxy.io/?https://raw.githubusercontent.com/Mik-colocode/luxcolor-library/main/tb3.jpg",
     "title": "Manoir Hanté",
     "director": "Tim Burton",
     "dop": "Roger Deakins",
@@ -55,7 +55,7 @@
   },
   {
     "id": "cloud-04",
-    "url": "[corsproxy.io](https://corsproxy.io/?https://raw.githubusercontent.com/Mik-colocode/luxcolor-library/main/tb4.webp)",
+    "url": "https://corsproxy.io/?https://raw.githubusercontent.com/Mik-colocode/luxcolor-library/main/tb4.webp",
     "title": "Queen Throne",
     "director": "Tim Burton",
     "dop": "Roger Deakins",
