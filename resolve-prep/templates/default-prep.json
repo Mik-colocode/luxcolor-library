@@ -1,0 +1,70 @@
+{
+  "id": "default-prep",
+  "name": "Prépa standard",
+  "version": 1,
+  "description": "Arborescence classique rushes / timelines / exports avec dossiers prod miroir.",
+  "resolve_bins": [
+    {
+      "name": "01_RUSHES",
+      "children": []
+    },
+    {
+      "name": "02_TIMELINES",
+      "children": []
+    },
+    {
+      "name": "03_EXPORTS",
+      "children": []
+    },
+    {
+      "name": "04_GRADES",
+      "children": []
+    }
+  ],
+  "filesystem": [
+    {
+      "name": "01_INGEST",
+      "children": []
+    },
+    {
+      "name": "02_PROXIES",
+      "children": []
+    },
+    {
+      "name": "03_EXPORTS",
+      "children": [
+        {
+          "name": "TRANSCODES",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "04_PROJECT_FILES",
+      "children": []
+    }
+  ],
+  "timeline": {
+    "frame_rate": "25",
+    "resolution": "1920x1080",
+    "pixel_aspect": "square",
+    "color_timeline_space": "DaVinci Wide Gamut",
+    "color_timeline_gamma": "DaVinci Intermediate"
+  },
+  "color_management": {
+    "color_science_mode": "davinciYRGBColorManagedv2",
+    "separate_color_space_and_gamma": true,
+    "color_space_input": "Rec.709",
+    "color_space_timeline": "DaVinci Wide Gamut",
+    "color_space_timeline_gamma": "DaVinci Intermediate",
+    "color_space_output": "Rec.709",
+    "color_space_output_gamma": "Gamma 2.4"
+  },
+  "export": {
+    "name": "default_transcode",
+    "use_render_preset": true,
+    "render_preset_name": "H.264_Proxy",
+    "target_dir_relative": "03_EXPORTS/TRANSCODES",
+    "custom": {}
+  }
+}

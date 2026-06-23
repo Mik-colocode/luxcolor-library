@@ -1,0 +1,174 @@
+:root {
+  color-scheme: dark;
+  font-family: Inter, system-ui, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #f4f4f5;
+  background: #09090b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 4rem;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.75rem;
+  color: #a1a1aa;
+  margin: 0 0 0.5rem;
+}
+
+h1 {
+  margin: 0 0 0.5rem;
+  font-size: 2rem;
+}
+
+.subtitle {
+  margin: 0;
+  color: #d4d4d8;
+  max-width: 48rem;
+}
+
+.badge {
+  background: #18181b;
+  border: 1px solid #3f3f46;
+  border-radius: 999px;
+  padding: 0.4rem 0.8rem;
+  font-size: 0.85rem;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 1rem;
+}
+
+.panel {
+  background: #111113;
+  border: 1px solid #27272a;
+  border-radius: 16px;
+  padding: 1.25rem;
+}
+
+.panel h2 {
+  margin-top: 0;
+}
+
+.form {
+  display: grid;
+  gap: 0.9rem;
+}
+
+label {
+  display: grid;
+  gap: 0.35rem;
+  font-size: 0.92rem;
+}
+
+input,
+select,
+button {
+  font: inherit;
+}
+
+input,
+select {
+  background: #09090b;
+  border: 1px solid #3f3f46;
+  border-radius: 10px;
+  color: inherit;
+  padding: 0.65rem 0.75rem;
+}
+
+button {
+  background: #f97316;
+  color: #111;
+  border: none;
+  border-radius: 10px;
+  padding: 0.8rem 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+.checks {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.checks label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.tree {
+  margin: 0.25rem 0 0;
+  padding-left: 1rem;
+}
+
+.meta-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.steps {
+  padding-left: 1.2rem;
+}
+
+.steps .ok {
+  color: #86efac;
+}
+
+.steps .ko {
+  color: #fca5a5;
+}
+
+.error {
+  margin-top: 1rem;
+  border-color: #7f1d1d;
+  color: #fecaca;
+}
+
+@media (max-width: 900px) {
+  .layout,
+  .columns,
+  .meta-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero {
+    flex-direction: column;
+  }
+}

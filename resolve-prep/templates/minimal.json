@@ -1,0 +1,42 @@
+{
+  "id": "minimal",
+  "name": "Minimal",
+  "version": 1,
+  "description": "Structure légère pour tests rapides.",
+  "resolve_bins": [
+    {
+      "name": "RUSHES",
+      "children": []
+    },
+    {
+      "name": "TIMELINES",
+      "children": []
+    }
+  ],
+  "filesystem": [
+    {
+      "name": "RUSHES",
+      "children": []
+    },
+    {
+      "name": "EXPORT",
+      "children": []
+    }
+  ],
+  "timeline": {
+    "frame_rate": "24",
+    "resolution": "1920x1080",
+    "pixel_aspect": "square"
+  },
+  "color_management": {
+    "color_science_mode": "davinciYRGBColorManagedv2",
+    "separate_color_space_and_gamma": true
+  },
+  "export": {
+    "name": "minimal_export",
+    "use_render_preset": true,
+    "render_preset_name": "H.264_Proxy",
+    "target_dir_relative": "EXPORT",
+    "custom": {}
+  }
+}
